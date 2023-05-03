@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Grid } from "@material-ui/core";
 import axios from 'axios';
-import VideoList from "../../../../client/src/components/youtube/videoList";
-import VideoDetail from "../../../../client/src/components/youtube/VideoDetail";
-import SearchBar from "../../../../client/src/components/youtube/SearchBar";
-import VideoComments from "../../../../client/src/components/youtube/VideoComments";
-import CommentBox from "../../../../client/src/components/youtube/commentBox";
+import VideoList from "@/components/youtube/videoList";
+import VideoDetail from "@/components/youtube/VideoDetail";
+import SearchBar from "@/components/youtube/SearchBar";
+import VideoComments from "@/components/youtube/VideoComments";
+import CommentBox from "@/components/youtube/commentBox";
 
-import youtube from "../../../../client/src/components/api/youtube";
+import youtube from "@/components/api/youtube";
 
 const api_key = 'AIzaSyANvvRl8V20qOmKPvm4DPlXI9WHSGG66bI';
 function VideoPlayer() {
