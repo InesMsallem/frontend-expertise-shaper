@@ -28,9 +28,9 @@ import {
   EnrolledCourses,
   MyResults,
   AddComment,
-  Chat
+  Chat,
+  AddCourses
 } from "@/pages";
-import AddCourses from "../../client/src/pages/AddCourses";
 import {
   DashboardLayout,
   DashboardHome,

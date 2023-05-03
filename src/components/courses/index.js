@@ -1,1 +1,1 @@
-export * from "../../../../client/src/components/courses/addCourse"
+export * from "@/components/courses/addCourse"
