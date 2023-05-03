@@ -9,7 +9,7 @@ import {
   Cog6ToothIcon,
 } from "@heroicons/react/24/solid";
 import { Card } from "react-bootstrap";
-import profilepic from "../../../client/public/css/profile.css";
+import profilepic from "../../public/css/profile.css";
 import { useRef } from "react";
 import courseStore from "@/store/courseStore";
 const staticSkills = ["React", "JavaScript", "HTML", "CSS", "Node.js"];
