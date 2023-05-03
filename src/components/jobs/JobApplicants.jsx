@@ -4,7 +4,7 @@ import { AppLayout } from "@/widgets/layout";
 import useJobStore from "@/store/jobStore";
 import axios from "axios";
 import useApplicationStore from "@/store/applicationStore";
-import Applicant from "../../../../client/src/components/jobs/applicant";
+import Applicant from "@/components/jobs/applicant";
 
 export function JobApplicants() {
     const { id } = useParams();
