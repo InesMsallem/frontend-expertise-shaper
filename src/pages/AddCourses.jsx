@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { AddCourse } from "../components/courses/addCourse";
+import { AddCourse } from "@/components/courses/addCourse";
 import { AppLayout } from "@/widgets/layout";
 export function AddCourses() {
   const navigate = useNavigate();

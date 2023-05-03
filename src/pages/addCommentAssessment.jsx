@@ -1,7 +1,7 @@
 import { AppLayout } from "@/widgets/layout";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { ViewAssessment } from "../../../client/src/components/assessments/allAssessments/viewAssessment";
+import { ViewAssessment } from "@/components/assessments/allAssessments/viewAssessment";
 
 export function AddComment() {
   const navigate = useNavigate();
